@@ -1,0 +1,1 @@
+ALTER TABLE OP_DocumentLock ADD DocCreatedTime datetime not null default GETDATE();

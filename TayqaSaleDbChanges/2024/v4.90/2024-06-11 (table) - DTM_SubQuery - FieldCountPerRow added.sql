@@ -1,0 +1,2 @@
+ALTER TABLE DTM_SubQuery
+ADD FieldCountPerRow INT NULL;

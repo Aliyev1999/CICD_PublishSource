@@ -1,0 +1,72 @@
+{
+	"AdditionalParameters": {
+		"MasterDataSyncService": [
+			{
+				"ConfigName": "TenantId",
+				"ConfigValue": "",
+				"Version": ""
+			}
+		],
+		"PenetrationWS": [
+			{
+				"ConfigName": "TenantId",
+				"ConfigValue": "",
+				"Version": ""
+			}
+		],
+		"ReportManagerWS": [
+			{
+				"ConfigName": "TenantId",
+				"ConfigValue": "",
+				"Version": ""
+			},
+			{
+				"ConfigName": "TakeIntoAccountSalesmanFilterInReports",
+				"ConfigValue": "",
+				"Version": ""
+			},
+			{
+				"ConfigName": "RoundDepthForDecimal",
+				"ConfigValue": "",
+				"Version": ""
+			}
+		],
+		"ERPIntegrationService": [
+			{
+				"ConfigName": "DigiTayqaAuthToken",
+				"ConfigValue": "",
+				"Version": ""
+			},
+			{
+				"ConfigName": "DigiTayqaBaseUrl",
+				"ConfigValue": "",
+				"Version": ""
+			},
+			{
+				"ConfigName": "DigiTayqaHttpClientTimeout",
+				"ConfigValue": "",
+				"Version": ""
+			},
+			{
+				"ConfigName": "DigiTayqaLogRequestAndResponse",
+				"ConfigValue": "",
+				"Version": ""
+			},
+			{
+				"ConfigName": "DigiTayqaTenantId",
+				"ConfigValue": "",
+				"Version": ""
+			},
+			{
+				"ConfigName": "DigiTayqaUseHttpClientHelper",
+				"ConfigValue": "",
+				"Version": ""
+			},
+			{
+				"ConfigName": "TenantId",
+				"ConfigValue": "",
+				"Version": ""
+			}
+		]
+	}
+}

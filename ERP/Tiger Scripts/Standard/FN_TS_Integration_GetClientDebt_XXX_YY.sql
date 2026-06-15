@@ -1,0 +1,10 @@
+create Function [dbo].[FN_TS_Integration_GetClientDebt_XXX_YY](@clientId int)
+RETURNS TABLE
+AS RETURN
+(
+SELECT ISNULL(SUM(DEBIT),0) AS Debit, ISNULL(SUM(CREDIT),0) AS Credit
+FROM LV_XXX_YY_GNTOTCL WITH (NOLOCK) 
+WHERE CARDREF=@clientId AND TOTTYP=1
+);
+
+GO

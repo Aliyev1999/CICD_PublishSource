@@ -1,0 +1,6 @@
+
+ALTER TABLE DTM_MobileScreenCreateEditField
+ADD OrderNumber int
+
+ALTER TABLE DTM_MobileScreenCreateEditField
+ADD SelectionType int

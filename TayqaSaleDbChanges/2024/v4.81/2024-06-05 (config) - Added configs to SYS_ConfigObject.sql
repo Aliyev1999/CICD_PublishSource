@@ -1,0 +1,2 @@
+insert into SYS_ConfigObject (Id,Name,Description,ValueFromTable,AppRelevant,ModifiedUserId,CreatedUserId,ModifiedDate,CreatedDate) values (46,'OnlineOffer','OnlineOffer', 1,1,null,1,null,GETDATE())
+insert into SYS_ConfigObject (Id,Name,Description,ValueFromTable,AppRelevant,ModifiedUserId,CreatedUserId,ModifiedDate,CreatedDate) values (47,'ActionSpecodeInputType','Action Specode Input Type', 0,1,null,1,null,GETDATE())

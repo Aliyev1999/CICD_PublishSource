@@ -1,0 +1,1 @@
+Insert into SYS_MethodPermission Values (2002, 67, 1 ,'Get client childs debt data', GetDate())

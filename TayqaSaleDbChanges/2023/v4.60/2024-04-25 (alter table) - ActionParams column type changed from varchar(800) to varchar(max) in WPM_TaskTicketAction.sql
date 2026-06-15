@@ -1,0 +1,3 @@
+
+ALTER TABLE WPM_TaskTicketAction
+ALTER COLUMN ActionParams VARCHAR(MAX) NULL

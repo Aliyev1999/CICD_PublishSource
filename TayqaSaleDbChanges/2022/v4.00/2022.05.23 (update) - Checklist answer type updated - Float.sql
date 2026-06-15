@@ -1,0 +1,1 @@
+update CHL_AnswerType set IsActive =1,IsAnswerFree=1 where Id=2

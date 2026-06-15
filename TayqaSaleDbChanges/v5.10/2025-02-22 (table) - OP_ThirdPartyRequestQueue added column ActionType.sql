@@ -1,0 +1,4 @@
+﻿ALTER TABLE OP_ThirdPartyRequestQueue
+ADD ActionType TINYINT NOT NULL DEFAULT (0)
+
+GO

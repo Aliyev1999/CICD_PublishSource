@@ -1,0 +1,19 @@
+create or ALTER function [dbo].[FN_TS_MasterData_GetClientLastOperations] (
+    @TenantId uniqueidentifier, 
+    @FirmNumber smallint
+)
+returns table 
+as 
+return
+(
+
+
+	    select
+        123                                       as ClientId,
+        cast(7 as int)                            as OperationType,
+        cast('2026-01-28' as date)                as CreatedDate,
+        cast('PINV.110126.63107' as nvarchar(50)) as DocNumber,
+        1262                                      as EmployeeId,
+        'description'                             as Description,
+        152                                       as Amount
+)

@@ -1,0 +1,3 @@
+
+ALTER TABLE OP_ClientDebt
+ADD Label NVARCHAR(255)

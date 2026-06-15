@@ -1,0 +1,2 @@
+alter table OP_OrderCompletionStatus
+alter column Status tinyint

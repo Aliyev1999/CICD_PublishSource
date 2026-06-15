@@ -1,0 +1,15 @@
+/****** Object:  Index [IX_OP_IncomingLog_Firm_ClientId]    Script Date: 10/25/2021 3:53:47 PM ******/
+CREATE NONCLUSTERED INDEX [IX_OP_IncomingLog_Firm_ClientId] ON [dbo].[OP_IncomingLog]
+(
+	[Firm] ASC,
+	[ClientId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, FILLFACTOR = 90) ON [PRIMARY]
+GO
+
+/****** Object:  Index [IX_OP_IncomingLog_ProcessDate]    Script Date: 10/25/2021 3:54:13 PM ******/
+CREATE NONCLUSTERED INDEX [IX_OP_IncomingLog_ProcessDate] ON [dbo].[OP_IncomingLog]
+(
+	[ProcessDate] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, FILLFACTOR = 90) ON [PRIMARY]
+GO
+

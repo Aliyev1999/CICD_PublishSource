@@ -1,0 +1,22 @@
+ALTER TABLE MD_Firm
+ADD MustAddDuty BIT
+GO
+ALTER TABLE MD_Firm
+ADD MustAddDepartment BIT
+GO
+ALTER TABLE MD_Firm
+ADD MustAddBranch BIT
+GO
+ALTER TABLE MD_Firm
+ADD MustAddRegionalOffice BIT
+GO
+ALTER TABLE MD_Firm
+ADD MustAddBrand BIT
+GO
+CREATE TABLE TDP_UserAdditionalFieldReasonMapping(
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    Firm SMALLINT NOT NULL,
+    UserId BIGINT NOT NULL,
+    ReasonId INT NOT NULL,
+    ReasonType TINYINT NOT NULL
+)

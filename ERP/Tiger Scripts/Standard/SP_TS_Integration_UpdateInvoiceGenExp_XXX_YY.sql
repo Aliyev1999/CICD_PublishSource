@@ -1,0 +1,5 @@
+CREATE PROCEDURE [dbo].[SP_TS_Integration_UpdateInvoiceGenExp_XXX_YY]
+    @tigerId int   
+AS   
+    UPDATE LG_XXX_YY_INVOICE SET GENEXP2=GENEXP1, GENEXP1='' WHERE LOGICALREF=@tigerId 
+GO

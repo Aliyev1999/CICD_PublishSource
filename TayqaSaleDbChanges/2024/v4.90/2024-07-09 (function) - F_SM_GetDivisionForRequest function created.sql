@@ -1,0 +1,6 @@
+CREATE FUNCTION dbo.F_SM_GetDivisionForRequest(@RequestId INT)
+    RETURNS SMALLINT
+AS
+BEGIN
+    RETURN 1
+END

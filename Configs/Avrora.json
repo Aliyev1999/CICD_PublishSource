@@ -1,0 +1,134 @@
+{
+  "AdditionalParameters": {
+    "ERPIntegrationService": [
+      {
+        "ConfigName": "AvroraOverrideOrderStatus",
+        "ConfigValue": "true",
+        "Version": "v2.95"
+      },
+      {
+        "ConfigName": "AvroraOrderPriceTypeForResmi",
+        "ConfigValue": "true",
+        "Version": "v2.95"
+      },
+      {
+        "ConfigName": "AvroraPreventNonLegalClientOrders",
+        "ConfigValue": "false",
+        "Version": "v2.95"
+      },
+      {
+        "ConfigName": "AvroraSeperateLegalFacturaIntoPieces",
+        "ConfigValue": "false",
+        "Version": "v2.95"
+      },
+      {
+        "ConfigName": "AvroraOrderMarkedForSeperationYashGuru",
+        "ConfigValue": "false",
+        "Version": "v2.95"
+      },
+      {
+        "ConfigName": "AvroraLinesInLegalFactura",
+        "ConfigValue": "22",
+        "Version": "v2.95"
+      },
+      {
+        "ConfigName": "AvroraOrderPriceTypeForNonResmi",
+        "ConfigValue": "false",
+        "Version": "v2.95"
+      },
+      {
+        "ConfigName": "AvroraTradingGroupForNoVat",
+        "ConfigValue": "EDVSIZ",
+        "Version": "v2.95"
+      },
+      {
+        "ConfigName": "ErpTigerDB",
+        "ConfigValue": "Server=192.168.10.18;Database=AVRORA_2019;User ID=tayqasale;Password=T@yqa20!8#78;Trusted_Connection=false; Connection Timeout=60",
+        "Version": "v2.99"
+      }
+    ],
+    "UserIdentityManagementWS": [
+      {
+        "ConfigName": "StrictCheckingAppVersions",
+        "ConfigValue": "AVR,LTE",
+        "Version": "v4.00"
+      }
+    ],
+    "RequestProcessorWS": [
+      {
+        "ConfigName": "ErpTigerDB",
+        "ConfigValue": "Server=192.168.10.18;Database=AVRORA_2019;User ID=tayqasale;Password=T@yqa20!8#78;Trusted_Connection=false; Connection Timeout=60",
+        "Version": "v3.10"
+      },
+      {
+        "ConfigName": "UseCheckDocumentRestrictionForClient",
+        "ConfigValue": "true",
+        "Version": "v3.40"
+      },
+      {
+        "ConfigName": "UseCheckDocumentRestrictionForClientGroup",
+        "ConfigValue": "true",
+        "Version": "v3.40"
+      },
+      {
+        "ConfigName": "UseCheckDocumentRestrictionForUser",
+        "ConfigValue": "true",
+        "Version": "v3.40"
+      },
+      {
+        "ConfigName": "UseCheckRestrictionsOnline",
+        "ConfigValue": "true",
+        "Version": "v4.10"
+      },
+      {
+        "ConfigName": "UseWarehouseNrNegativeControl",
+        "ConfigValue": "true",
+        "Version": "v4.10"
+      }
+    ],
+    "SpecImplementationService": [
+      {
+        "ConfigName": "AvroraSeperateLegalFacturaIntoPieces",
+        "ConfigValue": "false",
+        "Version": "v2.95"
+      },
+      {
+        "ConfigName": "AvroraOrderMarkedForSeperationYashGuru",
+        "ConfigValue": "false",
+        "Version": "v2.95"
+      },
+      {
+        "ConfigName": "AvroraPreventNonLegalClientOrders",
+        "ConfigValue": "false",
+        "Version": "v2.95"
+      },
+      {
+        "ConfigName": "AvroraLinesInLegalFactura",
+        "ConfigValue": "22",
+        "Version": "v2.95"
+      },
+      {
+        "ConfigName": "AvroraOrderPriceTypeForResmi",
+        "ConfigValue": "true",
+        "Version": "v2.95"
+      },
+      {
+        "ConfigName": "AvroraOrderPriceTypeForNonResmi",
+        "ConfigValue": "false",
+        "Version": "v2.95"
+      },
+      {
+        "ConfigName": "AvroraTradingGroupForNoVat",
+        "ConfigValue": "EDVSIZ",
+        "Version": "v2.95"
+      }
+    ],
+    "MasterDataSyncService": [
+      {
+        "ConfigName": "DayCountForSaleInvoice",
+        "ConfigValue": "1",
+        "Version": "v2.95"
+      }
+    ]
+  }
+}

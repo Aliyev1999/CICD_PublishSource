@@ -1,0 +1,7 @@
+ALTER TABLE OP_RequestQueueCommonExtension
+ADD ApplyErpCampaign BIT
+
+GO
+
+ALTER TABLE OP_IncomingLogCommonExtension
+ADD ApplyErpCampaign BIT

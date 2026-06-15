@@ -1,0 +1,1 @@
+ALTER TABLE SYS_DynamicComponent ALTER COLUMN UsedColumn nvarchar(200) NULL

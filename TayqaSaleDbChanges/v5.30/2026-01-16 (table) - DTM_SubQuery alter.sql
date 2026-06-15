@@ -1,0 +1,7 @@
+ALTER TABLE DTM_SubQuery
+    ADD PrintTableSql NVARCHAR(MAX) NULL;
+GO
+
+ALTER TABLE DTM_SubQuery
+ADD IsBulkPrint bit NOT NULL
+    CONSTRAINT DF_DTM_SubQuery_IsBulkPrint DEFAULT 0;

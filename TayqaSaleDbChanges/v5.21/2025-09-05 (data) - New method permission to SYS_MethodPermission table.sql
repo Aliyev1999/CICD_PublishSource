@@ -1,0 +1,1 @@
+Insert into SYS_MethodPermission Values (2001, 67, 1 ,'Get web embed mobile screen', GetDate())

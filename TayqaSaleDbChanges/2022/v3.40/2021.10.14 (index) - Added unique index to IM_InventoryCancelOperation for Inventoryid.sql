@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX IX_InventoryId ON IM_InventoryCancelOperation(InventoryId)

@@ -1,0 +1,2 @@
+alter table DTM_CustomAppDashboard
+add PermissionType tinyint

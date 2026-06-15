@@ -1,0 +1,11 @@
+{
+	"AdditionalParameters": {
+		"MasterDataSyncService": [
+			{
+				"ConfigName": "ReportManagerWS",
+				"ConfigValue": "AdditionalDbConnectionString",
+				"Version": ""
+			}
+		]
+	}
+}

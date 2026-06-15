@@ -1,0 +1,2 @@
+ALTER TABLE DTM_MobileScreenFilterMask
+ALTER COLUMN FilterMask NVARCHAR(4)  NULL;

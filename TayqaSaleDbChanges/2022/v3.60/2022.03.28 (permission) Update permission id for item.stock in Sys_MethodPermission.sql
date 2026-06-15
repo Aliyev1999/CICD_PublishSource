@@ -1,0 +1,1 @@
+update SYS_MethodPermission set PermissionId=427 where MethodId=519

@@ -1,0 +1,8 @@
+alter table MSG_NotificationClientReadLog drop column NotificationClientId
+alter table MSG_NotificationClientReadLog add NotificationClientId int default 0
+
+alter table MSG_NotificationClientReadLog drop column NotificationUserId
+alter table MSG_NotificationClientReadLog add NotificationUserId int default 0
+
+alter table MSG_NotificationUserReadLog drop column NotificationUserId
+alter table MSG_NotificationUserReadLog add NotificationUserId int default 0

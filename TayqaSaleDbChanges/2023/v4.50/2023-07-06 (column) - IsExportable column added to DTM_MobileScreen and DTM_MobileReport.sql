@@ -1,0 +1,18 @@
+ALTER TABLE DTM_MobileScreen
+ADD IsExportable BIT NOT NULL DEFAULT 0
+GO
+ALTER TABLE DTM_MobileReport
+ADD IsExportable BIT NOT NULL DEFAULT 0
+GO
+ALTER TABLE DTM_MobileScreen
+ADD IsAggregatable BIT NOT NULL DEFAULT 0
+GO
+ALTER TABLE DTM_MobileReport
+ADD IsAggregatable BIT NOT NULL DEFAULT 0
+Go
+ALTER TABLE DTM_MobileReportCardProperty
+ADD AggregationType TINYINT
+Go
+ALTER TABLE DTM_MobileScreenCardProperty
+ADD AggregationType TINYINT
+

@@ -1,0 +1,2 @@
+ALTER TABLE DTM_WebApi
+ADD ResponseType TINYINT

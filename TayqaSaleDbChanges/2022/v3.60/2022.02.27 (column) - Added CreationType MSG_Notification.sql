@@ -1,0 +1,2 @@
+alter table MSG_Notification
+add CreationType tinyint

@@ -1,0 +1,3 @@
+
+Alter table DTM_WebScreenMasterAction
+Add FieldCountPerRow tinyint

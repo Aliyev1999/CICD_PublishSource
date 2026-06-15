@@ -1,0 +1,1 @@
+alter table SYS_ExcelTemplate add [RegisteredDate] [datetime] NULL default getdate()

@@ -1,0 +1,11 @@
+{
+	"AdditionalParameters": {
+		"ERPIntegrationService": [
+			{
+				"ConfigName": "TigerDoubleApplyCampaignFlag",
+				"ConfigValue": "true",
+				"Version": "v2.99"
+			}
+		]
+	}
+}

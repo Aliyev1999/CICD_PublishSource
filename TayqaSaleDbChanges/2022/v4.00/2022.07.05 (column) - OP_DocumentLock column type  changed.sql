@@ -1,0 +1,1 @@
+ALTER TABLE OP_DocumentLock ALTER COLUMN WarehouseNr INT NULL

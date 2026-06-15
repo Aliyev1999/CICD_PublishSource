@@ -1,0 +1,25 @@
+{
+	"AdditionalParameters": {
+		"ERPIntegrationService": [
+			{
+				"ConfigName": "VeyselogluAdditionalDB",
+				"ConfigValue": "Server=LST_ULDUZ01.veyseloglu.az,1457;Database=ReportBase;User ID=lgn_vesastiger;Password=LQ@7!1_aq3l3;Trusted_Connection=false; Connection Timeout=60",
+				"Version": "v2.95"
+			}
+		],
+		"ReportManagerWS": [
+			{
+				"ConfigName": "VeyselogluSpecialReportDb",
+				"ConfigValue": "Server=LST_ULDUZ01.veyseloglu.az,1457;Database=ReportBase;User ID=lgn_vesastiger;Password=LQ@7!1_aq3l3;Trusted_Connection=false; Connection Timeout=60",
+				"Version": "v2.93"
+			}
+		],
+		"RequestProcessorWS": [
+			{
+				"ConfigName": "VeyselogluIgnoreDocNumberSetting",
+				"ConfigValue": "false",
+				"Version": "v2.95"
+			}
+		]
+	}
+}

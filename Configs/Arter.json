@@ -1,0 +1,40 @@
+{
+	"AdditionalParameters": {
+		"ERPIntegrationService": [
+			{
+				"ConfigName": "LogixAuthKey",
+				"ConfigValue": "",
+				"Version": "v4.00"
+			},
+			{
+				"ConfigName": "LogixBaseUrl",
+				"ConfigValue": "",
+				"Version": "v4.00"
+			},
+			{
+				"ConfigName": "LogixLogRequestAndResponse",
+				"ConfigValue": "",
+				"Version": "v4.00"
+			}
+		],
+		"MasterDataSyncService" : [
+			{
+				"ConfigName": "LogixIgnoreRegisteredDateFilterOnMasterDataSync",
+				"ConfigValue": "",
+				"Version": "v2.97"
+			}
+		],
+		"ReportManagerWS" : [
+			{
+				"ConfigName": "RoundDepthForDecimal",
+				"ConfigValue": "",
+				"Version": "v2.97"
+			},
+			{
+				"ConfigName": "TakeIntoAccountSalesmanFilterInReports",
+				"ConfigValue": "",
+				"Version": "v2.97"
+			}
+		]
+	}
+}

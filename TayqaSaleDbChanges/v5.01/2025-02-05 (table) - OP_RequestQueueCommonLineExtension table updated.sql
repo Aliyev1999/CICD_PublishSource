@@ -1,0 +1,2 @@
+﻿ALTER TABLE OP_RequestQueueCommonLineExtension
+ADD TaxCode varchar(20)

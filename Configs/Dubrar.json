@@ -1,0 +1,18 @@
+{
+	"AdditionalParameters": {
+		"ERPIntegrationService": [
+			{
+				"ConfigName": "SpecImpCombinedItemColumnName",
+				"ConfigValue": "PRODUCERCODE",
+				"Version": "v2.95"
+			}
+		],
+		"MasterDataSyncService": [
+			{
+				"ConfigName": "TigerClientRouteType",
+				"ConfigValue": "CLCARD",
+				"Version": "v2.95"
+			}
+		]
+	}
+}

@@ -1,0 +1,14 @@
+create   function [dbo].[FN_TS_Report_GetClientInventory_XXX_YY](@clientId int)
+RETURNS TABLE
+AS RETURN
+(
+Select  ITEM.CODE As ItemCode, ITEM.NAME As ItemName,
+Sum((Case When LINE.TRCODE = 9 Then 1 When LINE.TRCODE = 4 Then -1 Else 0 End) * LINE.AMOUNT) As Quantity
+From LG_XXX_YY_STLINE LINE WITH (NOLOCK)
+Inner Join LG_XXX_ITEMS ITEM WITH (NOLOCK) On ITEM.LOGICALREF = LINE.STOCKREF
+Inner Join LG_XXX_CLCARD CLCARD WITH (NOLOCK) On CLCARD.LOGICALREF = LINE.CLIENTREF
+Where LINE.STATUS = 0 And CLCARD.LOGICALREF = @clientId
+Group By ITEM.CODE, ITEM.NAME
+Having Sum((Case When LINE.TRCODE = 9 Then 1 When LINE.TRCODE = 4 Then -1 Else 0 End) * LINE.AMOUNT) <> 0
+);
+GO

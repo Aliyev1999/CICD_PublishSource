@@ -1,0 +1,22 @@
+CREATE TABLE [dbo].[OP_ItemSerialNumber](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Firm] [smallint] NOT NULL,
+	[ItemId] [int] NOT NULL,
+	[WarehouseNr] [int] NOT NULL,
+	[SerialNumber] [nvarchar](255) NULL,
+	[RegisteredDate] [datetime] NOT NULL,
+ CONSTRAINT [PK__OP_ItemS__3214EC0799477CE4] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY],
+ CONSTRAINT [UQ_Firm_ItemId_SerialNumber] UNIQUE NONCLUSTERED 
+(
+	[Firm] ASC,
+	[ItemId] ASC,
+	[SerialNumber] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[OP_ItemSerialNumber] ADD  CONSTRAINT [DF__OP_ItemSe__Regis__1B2143C3]  DEFAULT (getdate()) FOR [RegisteredDate]
+GO

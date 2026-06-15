@@ -1,0 +1,102 @@
+﻿{
+  "ConnectionStrings": {
+
+    // Db
+    "Default": "Server=192.168.80.23; Database=TayqaSale;User Id=tayqa;Password=t@yq@2!016;Trusted_Connection=false;MultipleActiveResultSets=true;Connection Timeout=60"
+  },
+
+  "Abp": {
+    "RedisCache": {
+      "ConnectionString": "localhost",
+      "DatabaseId": -1
+    }
+  },
+
+  // -- Production
+	"App": {
+		"ServerRootAddress": "http://192.168.80.25:1101/",
+		"ClientRootAddress": "http://192.168.80.25:1100/",
+		"CorsOrigins": "http://192.168.80.25:1101/,http://localhost:49152"
+	},
+	
+	"LicenseManagement": {
+    "LicenseInfoFilePath": "C:\\TayqaSale\\general\\license.xml"
+  },
+  "SalesmanActionsConfig": {
+    "WebserviceUrl": "http://192.168.80.25:1103/tayqa/tiger/api/aplusco/v2.90/report/GetSalesmanActionData/"
+  },
+
+  "Authentication": {
+    "Facebook": {
+      "IsEnabled": "false",
+      "AppId": "",
+      "AppSecret": ""
+    },
+    "Google": {
+      "IsEnabled": "false",
+      "ClientId": "",
+      "ClientSecret": ""
+    },
+    "Microsoft": {
+      "IsEnabled": "false",
+      "ConsumerKey": "",
+      "ConsumerSecret": ""
+    },
+    "JwtBearer": {
+      "IsEnabled": "true",
+      "SecurityKey": " secret for AplusCo 2018!",
+      "Issuer": "http://aplusco.az",
+      "Audience": "http://aplusco.az"
+    }
+  },
+
+  "Recaptcha": {
+    "SiteKey": "6LfD-wUTAAAAACULAVXvL61K0w02RIsjhI8EyiS-",
+    "SecretKey": "6LfD-wUTAAAAADm3h7vomd9FtaAlAwexki29BtXC"
+  },
+
+  "IdentityServer": {
+    "IsEnabled": "true",
+    "Clients": [
+      {
+        "ClientId": "client",
+        "AllowedGrantTypes": [ "password" ],
+        "ClientSecrets": [
+          {
+            "Value": "def2edf7-5d42-4edc-a84a-30136c340e13"
+          }
+        ],
+        "AllowedScopes": [ "default-api" ]
+      },
+      {
+        "ClientId": "demo",
+        "ClientName": "MVC Client Demo",
+        "AllowedGrantTypes": [ "hybrid", "client_credentials" ],
+        "RequireConsent": "true",
+        "ClientSecrets": [
+          {
+            "Value": "def2edf7-5d42-4edc-a84a-30136c340e13"
+          }
+        ],
+        "RedirectUris": [ "http://openidclientdemo.com:8001/signin-oidc" ],
+        "PostLogoutRedirectUris": [ "http://openidclientdemo.com:8001/signout-callback-oidc" ],
+        "AllowedScopes": [ "openid", "profile", "default-api" ],
+        "AllowOfflineAccess": "true"
+      }
+    ]
+  },
+
+  "Payment": {
+    "PayPal": {
+      "Environment": "sandbox",
+      "BaseUrl": "https://api.sandbox.paypal.com/v1",
+      "ClientId": "",
+      "ClientSecret": "",
+      "DemoUsername": "",
+      "DemoPassword": ""
+    }
+  },
+
+  "ItemImagesPath": "C:\\TayqaSale\\AppDownloads\\aplusco\\ItemImages",
+  "CatalogImagesZipPath": "D:\\TayqaSale\\AppDownloads\\aplusco\\ImageZips"
+}

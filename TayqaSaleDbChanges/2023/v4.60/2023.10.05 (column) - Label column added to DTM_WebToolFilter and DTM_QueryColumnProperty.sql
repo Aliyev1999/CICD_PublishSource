@@ -1,0 +1,5 @@
+ALTER TABLE DTM_WebToolFilter
+ADD Label NVARCHAR(100)
+
+ALTER TABLE DTM_QueryColumnProperty
+ADD Label NVARCHAR(100)

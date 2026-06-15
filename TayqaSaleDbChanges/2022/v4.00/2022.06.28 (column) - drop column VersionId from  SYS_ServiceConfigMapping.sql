@@ -1,0 +1,2 @@
+alter table SYS_ServiceConfigMapping
+drop column VersionId

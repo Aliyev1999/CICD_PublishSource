@@ -1,0 +1,11 @@
+{
+	"AdditionalParameters": {
+		"ERPIntegrationService": [
+			{
+				"ConfigName": "TigerIgnoreCashDate",
+				"ConfigValue": "true",
+				"Version": "v2.95"
+			}
+		]
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"AdditionalParameters": {
+		"ERPIntegrationService": [
+			{
+				"ConfigName": "AzGranataApplySetTradingGroupFunction",
+				"ConfigValue": "true",
+				"Version": "v2.95"
+			}
+		]
+	}
+}

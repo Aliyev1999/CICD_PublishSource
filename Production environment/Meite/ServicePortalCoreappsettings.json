@@ -1,0 +1,118 @@
+﻿{
+  "ConnectionStrings": {
+
+    // HOME
+    "Default": "Server=192.168.1.10; Database=TayqaSale;User Id=tayqa;Password=t@yq@2!016;Trusted_Connection=false;MultipleActiveResultSets=true;Connection Timeout=60"
+  },
+  "AbpZeroLicenseCode": "00GEz+pPp/VzwEotaxBVwlUfQWRwnhUbn181680979411c4cd28a845e0cf0e970f7",
+
+  "Abp": {
+    "RedisCache": {
+      "ConnectionString": "localhost",
+      "DatabaseId": -1
+    }
+  },
+
+  // -- Production
+  "App": {
+    "ServerRootAddress": "http://192.168.1.9:1101/",
+    "ClientRootAddress": "http://192.168.1.9:1100/",
+    "CorsOrigins": "http://192.168.1.9:1100/"
+  },
+
+  "LicenseManagement": {
+    "LicenseInfoFilePath": "D:\\TayqaSale\\General\\Meite\\license.xml"
+  },
+
+  "ExcelTemplateConfig": {
+    "ExcelTemplatesFolderPath": "D:\\Excels\\",
+    "ExcelTemplates": [
+      "UserCatalogMapping.xlsx",
+      "CatalogItemMapping.xlsx",
+      "Test.xlsx",
+      "text.txt",
+      "DataBase for CS.xlsx"
+    ]
+  },
+
+  "SalesmanActionsConfig": {
+    "WebserviceUrl": "http://192.168.1.9:1102/tayqa/tiger/api/meite/v4.10/report/GetSalesmanActionData/"
+  },
+
+  "Authentication": {
+    "Facebook": {
+      "IsEnabled": "false",
+      "AppId": "",
+      "AppSecret": ""
+    },
+    "Google": {
+      "IsEnabled": "false",
+      "ClientId": "",
+      "ClientSecret": ""
+    },
+    "Microsoft": {
+      "IsEnabled": "false",
+      "ConsumerKey": "",
+      "ConsumerSecret": ""
+    },
+    "JwtBearer": {
+      "IsEnabled": "true",
+	  "SecurityKey": " for Meite 2018!",
+      "Issuer": "http://www.meite.com.tr",
+      "Audience": "http://www.meite.com.tr"
+    }
+  },
+
+  "Recaptcha": {
+    "SiteKey": "6LfD-wUTAAAAACULAVXvL61K0w02RIsjhI8EyiS-",
+    "SecretKey": "6LfD-wUTAAAAADm3h7vomd9FtaAlAwexki29BtXC"
+  },
+
+  "IdentityServer": {
+    "IsEnabled": "true",
+    "Clients": [
+      {
+        "ClientId": "client",
+        "AllowedGrantTypes": [ "password" ],
+        "ClientSecrets": [
+          {
+            "Value": "def2edf7-5d42-4edc-a84a-30136c340e13"
+          }
+        ],
+        "AllowedScopes": [ "default-api" ]
+      },
+      {
+        "ClientId": "demo",
+        "ClientName": "MVC Client Demo",
+        "AllowedGrantTypes": [ "hybrid", "client_credentials" ],
+        "RequireConsent": "true",
+        "ClientSecrets": [
+          {
+            "Value": "def2edf7-5d42-4edc-a84a-30136c340e13"
+          }
+        ],
+        "RedirectUris": [ "http://openidclientdemo.com:8001/signin-oidc" ],
+        "PostLogoutRedirectUris": [ "http://openidclientdemo.com:8001/signout-callback-oidc" ],
+        "AllowedScopes": [ "openid", "profile", "default-api" ],
+        "AllowOfflineAccess": "true"
+      }
+    ]
+  },
+
+  "Payment": {
+    "PayPal": {
+      "Environment": "sandbox",
+      "BaseUrl": "https://api.sandbox.paypal.com/v1",
+      "ClientId": "",
+      "ClientSecret": "",
+      "DemoUsername": "",
+      "DemoPassword": ""
+    }
+  },
+
+  //"ItemImagesPath": "D:\\TayqaSaleAppDownloads\\prod\\ItemImages",
+  "ItemImagesPath": "C:\\TempItemAttachment",
+
+  //"CatalogImagesZipPath": "D:\\TayqaSaleAppDownloads\\prod\\ImageZips",
+  "CatalogImagesZipPath": "C:\\TempItemAttachment"
+}

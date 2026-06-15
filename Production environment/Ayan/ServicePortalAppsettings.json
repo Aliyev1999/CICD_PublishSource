@@ -1,0 +1,105 @@
+﻿{
+  "ConnectionStrings": {
+
+    // HOME
+	"Default": "Server=172.18.32.52; Database=TayqaSale;User Id=tayqa;Password=t@yq@2!016;Trusted_Connection=false;MultipleActiveResultSets=true;Connection Timeout=60"
+  },
+  
+  "AbpZeroLicenseCode": "00GEz+pPp/VzwEotaxBVwlUfQWRwnhUbn181680979411c4cd28a845e0cf0e970f7",
+
+  "Abp": {
+    "RedisCache": {
+      "ConnectionString": "localhost",
+      "DatabaseId": -1
+    }
+  },
+
+  // -- Production
+  "App": {
+    "ServerRootAddress": "http://localhost:1101/",
+    "ClientRootAddress": "http://localhost:1100/",
+    "CorsOrigins": "http://localhost:1101,http://localhost:49152"
+  },
+
+  "LicenseManagement": {
+    "LicenseInfoFilePath": "D:\\TayqaSale\\General\\license.xml"
+  },
+  "SalesmanActionsConfig": {
+    "WebserviceUrl": "http://172.18.32.53:1103/tayqa/tiger/api/ayan/v2.90/report/GetSalesmanActionData/"
+  },
+
+  "Authentication": {
+    "Facebook": {
+      "IsEnabled": "false",
+      "AppId": "",
+      "AppSecret": ""
+    },
+    "Google": {
+      "IsEnabled": "false",
+      "ClientId": "",
+      "ClientSecret": ""
+    },
+    "Microsoft": {
+      "IsEnabled": "false",
+      "ConsumerKey": "",
+      "ConsumerSecret": ""
+    },
+    "JwtBearer": {
+      "IsEnabled": "true",
+      "SecurityKey": " seCRet foR AyaN 2018!",
+      "Issuer": "http://ayanltd.az/",
+      "Audience": "http://ayanltd.az/"
+    }
+  },
+
+  "Recaptcha": {
+    "SiteKey": "6LfD-wUTAAAAACULAVXvL61K0w02RIsjhI8EyiS-",
+    "SecretKey": "6LfD-wUTAAAAADm3h7vomd9FtaAlAwexki29BtXC"
+  },
+
+  "IdentityServer": {
+    "IsEnabled": "true",
+    "Clients": [
+      {
+        "ClientId": "client",
+        "AllowedGrantTypes": [ "password" ],
+        "ClientSecrets": [
+          {
+            "Value": "def2edf7-5d42-4edc-a84a-30136c340e13"
+          }
+        ],
+        "AllowedScopes": [ "default-api" ]
+      },
+      {
+        "ClientId": "demo",
+        "ClientName": "MVC Client Demo",
+        "AllowedGrantTypes": [ "hybrid", "client_credentials" ],
+        "RequireConsent": "true",
+        "ClientSecrets": [
+          {
+            "Value": "def2edf7-5d42-4edc-a84a-30136c340e13"
+          }
+        ],
+        "RedirectUris": [ "http://openidclientdemo.com:8001/signin-oidc" ],
+        "PostLogoutRedirectUris": [ "http://openidclientdemo.com:8001/signout-callback-oidc" ],
+        "AllowedScopes": [ "openid", "profile", "default-api" ],
+        "AllowOfflineAccess": "true"
+      }
+    ]
+  },
+
+  "Payment": {
+    "PayPal": {
+      "Environment": "sandbox",
+      "BaseUrl": "https://api.sandbox.paypal.com/v1",
+      "ClientId": "",
+      "ClientSecret": "",
+      "DemoUsername": "",
+      "DemoPassword": ""
+    }
+  },
+
+  "ItemImagesPath": "D:\\TayqaSale\\AppDownloads\\ayan\\ItemImages",
+
+  "CatalogImagesZipPath": "D:\\TayqaSale\\AppDownloads\\ayan\\ImageZips"
+}

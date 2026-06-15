@@ -1,0 +1,10 @@
+create Function [dbo].[FN_TS_MasterData_GetSalesmanRoute_XXX]()
+RETURNS TABLE
+AS RETURN
+(
+SELECT Distinct CLIENTREF AS ClientId, SALESMANREF AS SalesmanId, VISITDAY AS VisitDay, VISITPERIOD AS VisitPeriod, BEGDATE AS BeginDate
+FROM LG_XXX_SLSCLREL WITH (NOLOCK) 
+WHERE VISITPERIOD ='7'
+);
+
+GO

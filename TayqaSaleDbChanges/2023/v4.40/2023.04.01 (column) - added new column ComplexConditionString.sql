@@ -1,0 +1,2 @@
+alter table CM_CampaignDiscountTermPromo
+add ComplexConditionString nvarchar(max)

@@ -1,0 +1,1 @@
+ALTER TABLE UIM_UserEmployeeMapping ADD IsDefault BIT NOT NULL DEFAULT 0;

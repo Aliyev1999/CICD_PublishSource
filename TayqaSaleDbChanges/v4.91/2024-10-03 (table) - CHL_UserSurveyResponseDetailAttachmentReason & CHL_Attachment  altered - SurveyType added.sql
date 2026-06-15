@@ -1,0 +1,6 @@
+ALTER TABLE CHL_Attachment
+ADD SurveyType TINYINT NOT NULL DEFAULT 3
+GO
+ALTER TABLE CHL_UserSurveyResponseDetailAttachmentReason
+ADD SurveyType TINYINT NOT NULL DEFAULT 3
+GO

@@ -1,0 +1,1 @@
+INSERT INTO WPM_TaskActionType (Id, Name, Description, CreatedDate, Template, IsActive) VALUES (50, N'Signature', N'Signature', N'2025-10-13 12:07:07.420', N'{}', 1);

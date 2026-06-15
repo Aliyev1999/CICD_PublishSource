@@ -1,0 +1,97 @@
+{
+	"AdditionalParameters": {
+		"ERPIntegrationService": [
+			{
+				"ConfigName": "CheckDebtLimit",
+				"ConfigValue": "false",
+				"Version": "v3.00"
+			},
+			{
+				"ConfigName": "CheckDebtLimitDB",
+				"ConfigValue": "Server=172.16.5.56;Database=LOGODB_2021;User ID=tayqa_dev;Password=TayQa.S@l3;Trusted_Connection=false; Connection Timeout=60",
+				"Version": "v3.00"
+			},
+			{
+				"ConfigName": "SmafiOrderSpecode",
+				"ConfigValue": "200",
+				"Version": "v3.00"
+			},
+			{
+				"ConfigName": "SamfiReturnDispatchSpecode",
+				"ConfigValue": "110",
+				"Version": "v3.00"
+			},
+			{
+				"ConfigName": "CheckUnPaidBillControl",
+				"ConfigValue": "true",
+				"Version": "v3.00"
+			},
+			{
+				"ConfigName": "CheckUnPaidBillControlDbConnectionString",
+				"ConfigValue": "Server=172.16.5.56;Database=LOGODB_2021;User ID=tayqa_dev;Password=TayQa.S@l3;Trusted_Connection=false; Connection Timeout=60",
+				"Version": "v3.00"
+			},
+			{
+				"ConfigName": "UpdateOrderProcessDate",
+				"ConfigValue": "true",
+				"Version": "v3.00"
+			},
+			{
+				"ConfigName": "SetProcessDateToTheNextDayIfWorkHourIsOver",
+				"ConfigValue": "true",
+				"Version": "v3.00"
+			}
+		],
+		"MasterDataSyncService": [
+			{
+				"ConfigName": "AdditionalDbConnectionString",
+				"ConfigValue": "Server=172.16.5.56;Database=LOGODB_2021;User ID=tayqa_dev;Password=TayQa.S@l3;Trusted_Connection=false; Connection Timeout=60",
+				"Version": "v3.00"
+			},
+			{
+				"ConfigName": "MasterDataDB",
+				"ConfigValue": "Server=172.16.5.56;Database=LOGODB_2021;User ID=tayqa_dev;Password=TayQa.S@l3;Trusted_Connection=false; Connection Timeout=60",
+				"Version": "v3.00"
+			},
+			{
+				"ConfigName": "MasterDataDBFlagMask",
+				"ConfigValue": "11111111",
+				"Version": "v3.00"
+			},
+			{
+				"ConfigName": "DayCountForFinance",
+				"ConfigValue": "1",
+				"Version": "v3.00"
+			},
+			{
+				"ConfigName": "DayCountForSaleInvoice",
+				"ConfigValue": "1",
+				"Version": "v3.00"
+			}
+		],
+		"ReportManagerWS": [
+			{
+				"ConfigName": "TakeIntoAccountSalesmanFilterInReports",
+				"ConfigValue": "true",
+				"Version": "v3.00"
+			},
+			{
+				"ConfigName": "ReportErpDb1",
+				"ConfigValue": "Server=172.16.5.56;Database=LOGODB_2021;User ID=tayqa_dev;Password=TayQa.S@l3;Trusted_Connection=false; Connection Timeout=60",
+				"Version": "v3.00"
+			},
+			{
+				"ConfigName": "ReportFirm1",
+				"ConfigValue": "992",
+				"Version": "v3.00"
+			}
+		],
+		"RequestProcessorWS": [
+			{
+				"ConfigName": "IsMandatoryReturnSpecode",
+				"ConfigValue": "true",
+				"Version": "v3.00"
+			}
+		]
+	}
+}

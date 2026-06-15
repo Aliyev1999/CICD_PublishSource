@@ -1,0 +1,4 @@
+﻿ALTER TABLE CHL_Question
+ADD QuestionGroupView TINYINT NULL
+
+GO

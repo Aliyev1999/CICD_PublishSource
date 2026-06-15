@@ -1,0 +1,116 @@
+﻿{
+  "ConnectionStrings": {
+
+    // HOME
+	"Default": "Server=LST_VESAS01.veyseloglu.az,1455; Database=VESASGEO;User Id=lgn_vesasapp;Password=/21*Ar$Ma@12Ge&doN#;Trusted_Connection=false;MultipleActiveResultSets=true;Connection Timeout=60"
+  },
+  
+  "AbpZeroLicenseCode": "00GEz+pPp/VzwEotaxBVwlUfQWRwnhUbn181680979411c4cd28a845e0cf0e970f7",
+  
+  "Abp": {
+    "RedisCache": {
+      "ConnectionString": "localhost",
+      "DatabaseId": -1
+    }
+  },
+  
+  
+  // -- Production
+  "App": {
+    "ServerRootAddress": "https://vesas.veyseloglu.az:1421/",
+    "ClientRootAddress": "https://vesas.veyseloglu.az:1420/",
+    "CorsOrigins": "https://vesas.veyseloglu.az:1420"
+  },
+
+  "LicenseManagement": {
+    "LicenseInfoFilePath": "C:\\TayqaSale\\General\\vgeorgia\\license.xml"
+  }, 
+  
+  "ExcelTemplateConfig": {
+    "ExcelTemplatesFolderPath": "C:\\TayqaSale\\Templates\\ExcelTemplates\\",
+    "ExcelTemplates": [
+      "UserCatalogMapping.xlsx",
+      "CatalogItemMapping.xlsx",
+	  "BannedClientExcel.xlsx"
+    ]
+  },
+  
+  "SalesmanActionsConfig": {
+    "WebserviceUrl": "http://VOTAYQAWEB02.veyseloglu.az:1103/tayqa/tiger/api/vgeorgia/v2.91/report/GetSalesmanActionData/"
+  },
+
+  "Authentication": {
+    "Facebook": {
+      "IsEnabled": "false",
+      "AppId": "",
+      "AppSecret": ""
+    },
+    "Google": {
+      "IsEnabled": "false",
+      "ClientId": "",
+      "ClientSecret": ""
+    },
+    "Microsoft": {
+      "IsEnabled": "false",
+      "ConsumerKey": "",
+      "ConsumerSecret": ""
+    },
+    "JwtBearer": {
+      "IsEnabled": "true",
+      "SecurityKey": " fOr VGeorgia 20!9!",
+      "Issuer": "http://veyseloglu.az/vgeorgia",
+      "Audience": "http://veyseloglu.az/vgeorgia"
+    }
+  },
+
+  "Recaptcha": {
+    "SiteKey": "6LfD-wUTAAAAACULAVXvL61K0w02RIsjhI8EyiS-",
+    "SecretKey": "6LfD-wUTAAAAADm3h7vomd9FtaAlAwexki29BtXC"
+  },
+
+  "IdentityServer": {
+    "IsEnabled": "true",
+    "Clients": [
+      {
+        "ClientId": "client",
+        "AllowedGrantTypes": [ "password" ],
+        "ClientSecrets": [
+          {
+            "Value": "def2edf7-5d42-4edc-a84a-30136c340e13"
+          }
+        ],
+        "AllowedScopes": [ "default-api" ]
+      },
+      {
+        "ClientId": "demo",
+        "ClientName": "MVC Client Demo",
+        "AllowedGrantTypes": [ "hybrid", "client_credentials" ],
+        "RequireConsent": "true",
+        "ClientSecrets": [
+          {
+            "Value": "def2edf7-5d42-4edc-a84a-30136c340e13"
+          }
+        ],
+        "RedirectUris": [ "http://openidclientdemo.com:8001/signin-oidc" ],
+        "PostLogoutRedirectUris": [ "http://openidclientdemo.com:8001/signout-callback-oidc" ],
+        "AllowedScopes": [ "openid", "profile", "default-api" ],
+        "AllowOfflineAccess": "true"
+      }
+    ]
+  },
+
+  "Payment": {
+    "PayPal": {
+      "Environment": "sandbox",
+      "BaseUrl": "https://api.sandbox.paypal.com/v1",
+      "ClientId": "",
+      "ClientSecret": "",
+      "DemoUsername": "",
+      "DemoPassword": ""
+    }
+  },
+
+  "ItemImagesPath": "C:\\TayqaSale\\AppDownloads\\vgeorgia\\ItemImages",
+
+  "CatalogImagesZipPath": "C:\\TayqaSale\\AppDownloads\\vgeorgia\\ImageZips"
+}

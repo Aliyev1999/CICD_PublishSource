@@ -1,0 +1,2 @@
+ALTER TABLE DTM_DynamicWebReportTemplateColumnMapping
+ADD ToolType tinyint not null;

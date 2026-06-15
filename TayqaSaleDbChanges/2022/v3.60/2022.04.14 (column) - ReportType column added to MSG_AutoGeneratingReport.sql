@@ -1,0 +1,2 @@
+alter table MSG_AutoGeneratingReport
+add ReportType tinyint

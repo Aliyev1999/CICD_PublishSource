@@ -1,0 +1,7 @@
+ALTER TABLE MSG_Notification
+ADD Unmuted BIT NOT NULL DEFAULT(0)
+GO
+
+ALTER TABLE MSG_Notification
+ADD IsDeletable BIT NOT NULL DEFAULT(1)
+GO

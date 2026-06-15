@@ -1,0 +1,50 @@
+{
+	"AdditionalParameters": {
+		"ERPIntegrationService": [
+			{
+				"ConfigName": "TigerIgnoreCashDate",
+				"ConfigValue": "true",
+				"Version": "v2.95"
+			},
+			{
+				"ConfigName": "SpecImpCombinedItemColumnName",
+				"ConfigValue": "GTIPCODE",
+				"Version": "v2.95"
+			}
+		],
+		"MasterDataSyncService": [
+			{
+				"ConfigName": "TigerQueryFilterForItemUnits",
+				"ConfigValue": "",
+				"Version": "v2.95"
+			},
+			{
+				"ConfigName": "TigerQueryFilterForDeliveryOrders",
+				"ConfigValue": "",
+				"Version": "v2.95"
+			},
+			{
+				"ConfigName": "TigerClientRouteType",
+				"ConfigValue": "CLCARD",
+				"Version": "v2.95"
+			},
+			{
+				"ConfigName": "MasterDataDB",
+				"ConfigValue": "Server=SERVER-HBT;Database=LOGODB;User ID=Tayqa;Password=T@yq@2o2o;Trusted_Connection=false; Connection Timeout=60",
+				"Version": "v2.95"
+			},
+			{
+				"ConfigName": "MasterDataDBFlagMask",
+				"ConfigValue": "01110011",
+				"Version": "v2.95"
+			}
+		],
+		"RequestProcessorWS" : [
+			{
+				"ConfigName": "QueryExecutionTimeout",
+				"ConfigValue": "500",
+				"Version": "v2.95"
+			}
+		]
+	}
+}

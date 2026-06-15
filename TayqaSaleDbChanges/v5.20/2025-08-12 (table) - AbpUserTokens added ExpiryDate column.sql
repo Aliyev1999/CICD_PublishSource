@@ -1,0 +1,1 @@
+alter table AbpUserTokens add ExpireDate datetime2

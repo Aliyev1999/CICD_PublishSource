@@ -1,0 +1,2 @@
+alter table CHL_UserSurveyResponseDetailReason
+alter column AnswerId int null

@@ -1,0 +1,13 @@
+
+ALTER TABLE WPM_Task ADD TaskFinishControl BIT NULL;
+GO
+UPDATE WPM_Task SET TaskFinishControl = 0;
+GO
+ALTER TABLE WPM_Task ALTER COLUMN TaskFinishControl BIT NOT NULL;
+GO
+ALTER TABLE WPM_Task ADD HasOnlineActions BIT NULL;
+GO
+UPDATE WPM_Task SET HasOnlineActions = 0;
+GO
+ALTER TABLE WPM_Task ALTER COLUMN HasOnlineActions BIT NOT NULL;
+GO

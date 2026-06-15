@@ -1,0 +1,8 @@
+CREATE TABLE DTM_DatabaseTableColumn (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+	DatabaseObjectId INT NOT NULL,
+	Name NVARCHAR(100) NOT NULL,
+	DataType NVARCHAR(50) NOT NULL,
+	"Default" NVARCHAR(100),
+	NotNull BIT NOT NULL
+);

@@ -1,0 +1,6 @@
+CREATE OR ALTER PROCEDURE dbo.SP_GetClientCashFiscalId
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT NEWID() AS FiscalId;
+END

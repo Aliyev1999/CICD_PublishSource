@@ -1,0 +1,70 @@
+{
+	"AdditionalParameters": {
+		"ERPIntegrationService": [
+			{
+				"ConfigName": "BrokenReturnOperationSpecode",
+				"ConfigValue": "Xarab",
+				"Version": "v3.00"
+			},
+			{
+				"ConfigName": "ConfirmReturnOperationSpecode",
+				"ConfigValue": "Tesdiq",
+				"Version": "v3.00"
+			},
+			{
+				"ConfigName": "DisableReturnOperationBySpecode",
+				"ConfigValue": "Parcalamir",
+				"Version": "v3.00"
+			},
+			{
+				"ConfigName": "OrderByFilterForReturnInvoice",
+				"ConfigValue": "DESC",
+				"Version": "v3.00"
+			},
+			{
+				"ConfigName": "ThirdPartyIntegrationDocTypes",
+				"ConfigValue": "2,6",
+				"Version": "v3.00"
+			},
+			{
+				"ConfigName": "ThirdPartyIntegrationFailureStep",
+				"ConfigValue": "11",
+				"Version": "v3.00"
+			},
+			{
+				"ConfigName": "UpdateWarehouseStockDemandProcessDate",
+				"ConfigValue": "true",
+				"Version": "v3.00"
+			}
+		],
+		"ReportManagerWS": [
+			{
+				"ConfigName": "TakeIntoAccountSalesmanFilterInReports",
+				"ConfigValue": "true",
+				"Version": "v3.00"
+			}
+		],
+		"SpecImplementationService": [
+			{
+				"ConfigName": "ThirdPartyIntegrationCashOutSpecodeFilter",
+				"ConfigValue": "Tesdiq",
+				"Version": "v3.00"
+			},
+			{
+				"ConfigName": "ThirdPartyIntegrationDocTypes",
+				"ConfigValue": "2,6",
+				"Version": "v3.00"
+			},
+			{
+				"ConfigName": "ThirdPartyIntegrationNextStep",
+				"ConfigValue": "5",
+				"Version": "v3.00"
+			},
+			{
+				"ConfigName": "ThirdPartyIntegrationSpecodeFilter",
+				"ConfigValue": "Tesdiq",
+				"Version": "v3.00"
+			}
+		]
+	}
+}

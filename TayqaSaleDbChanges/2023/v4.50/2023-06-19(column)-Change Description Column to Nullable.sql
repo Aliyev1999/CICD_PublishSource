@@ -1,0 +1,1 @@
+ALTER TABLE DTM_WebReport ALTER COLUMN Description nvarchar(200) NULL

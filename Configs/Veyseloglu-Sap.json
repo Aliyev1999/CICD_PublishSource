@@ -1,0 +1,144 @@
+{
+	"AdditionalParameters": {
+		"ERPIntegrationService": [
+			{
+				"ConfigName": "SapBaseUrl",
+				"ConfigValue": "http://poprodapp01.veyseloglu.az:52600/RESTAdapter/vesasMobil",
+				"Version": "v3.50"
+			},
+				{
+				"ConfigName": "SapLogRequestAndResponse",
+				"ConfigValue": "true",
+				"Version": "v3.50"
+			},
+				{
+				"ConfigName": "SapUserName",
+				"ConfigValue": "web_vesas_mobil",
+				"Version": "v3.50"
+			},
+				{
+				"ConfigName": "SapPassword",
+				"ConfigValue": "e[A3m_avJS'B",
+				"Version": "v3.50"
+			},
+				{
+				"ConfigName": "SapHttpClientTimeout",
+				"ConfigValue": "6000",
+				"Version": "v3.50"
+			},
+				{
+				"ConfigName": "SapUseHttpClientHelper",
+				"ConfigValue": "true",
+				"Version": "v3.50"
+			}
+		],
+		"MasterDataSyncService" : [
+			{
+				"ConfigName": "BeginDateForRefreshMethods",
+				"ConfigValue": "01.01.2000 00:00:00",
+				"Version": "v2.95"
+			},
+			{
+				"ConfigName": "MasterDataDBFlagMask",
+				"ConfigValue": "11111111",
+				"Version": "v2.95"
+			},
+			{
+				"ConfigName": "DayCountForSaleInvoice",
+				"ConfigValue": "1",
+				"Version": "v2.99"
+			},
+			{
+				"ConfigName": "SapBaseUrl",
+				"ConfigValue": "http://poprodapp01.veyseloglu.az:52600/RESTAdapter/vesasMobil",
+				"Version": "v3.50"
+			},
+				{
+				"ConfigName": "SapHttpClientTimeout",
+				"ConfigValue": "6000",
+				"Version": "v3.50"
+			},
+				{
+				"ConfigName": "SapIgnoreRegisteredDateFilterOnMasterDataSync",
+				"ConfigValue": "true",
+				"Version": "v3.50"
+			},
+				{
+				"ConfigName": "SapLogMasterDataResponse",
+				"ConfigValue": "true",
+				"Version": "v3.50"
+			},
+				{
+				"ConfigName": "SapLogPerformance",
+				"ConfigValue": "true",
+				"Version": "v3.50"
+			},
+				{
+				"ConfigName": "SapUserName",
+				"ConfigValue": "web_vesas_mobil",
+				"Version": "v3.50"
+			},
+				{
+				"ConfigName": "SapPassword",
+				"ConfigValue": "e[A3m_avJS'B",
+				"Version": "v3.50"
+			}
+		],
+		"ReportManagerWS": [
+			{
+				"ConfigName": "SapBaseUrl",
+				"ConfigValue": "http://poprodapp01.veyseloglu.az:52600/RESTAdapter/vesasMobil",
+				"Version": "v3.50"
+			},
+				{
+				"ConfigName": "SapLogReportingDataResponse",
+				"ConfigValue": "true",
+				"Version": "v3.50"
+			},
+				{
+				"ConfigName": "SapUserName",
+				"ConfigValue": "web_vesas_mobil",
+				"Version": "v3.50"
+			},
+				{
+				"ConfigName": "SapPassword",
+				"ConfigValue": "e[A3m_avJS'B",
+				"Version": "v3.50"
+			}
+		],
+		"RequestProcessorWS": [
+			{
+				"ConfigName": "CheckSpecodeClientOperation",
+				"ConfigValue": "true",
+				"Version": "v3.50"
+			},
+			{
+				"ConfigName": "UseCheckDocumentRestrictionForClient",
+				"ConfigValue": "true",
+				"Version": "v3.50"
+			},
+			{
+				"ConfigName": "UseCheckDocumentRestrictionForClientGroup",
+				"ConfigValue": "true",
+				"Version": "v3.50"
+			},
+			{
+				"ConfigName": "UseCheckDocumentRestrictionForUser",
+				"ConfigValue": "true",
+				"Version": "v3.50"
+			},
+			{
+				"ConfigName": "CheckDocumentAndLineSpecialCodesMapping",
+				"ConfigValue": "false",
+				"Version": "v3.50"
+			}
+		],
+		"UserIdentityManagementWS": [
+			{
+				"ConfigName": "StrictCheckingAppVersions",
+				"ConfigValue": "VSS, VSS2",
+				"Version": "v3.60"
+			}
+		]
+	}
+}

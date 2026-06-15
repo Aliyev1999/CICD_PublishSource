@@ -1,0 +1,1 @@
+ALTER TABLE OP_ErpOrderStatusLog ALTER COLUMN OrderId bigint not null

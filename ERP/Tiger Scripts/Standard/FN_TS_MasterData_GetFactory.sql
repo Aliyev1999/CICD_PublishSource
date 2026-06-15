@@ -1,0 +1,8 @@
+create Function [dbo].[FN_TS_MasterData_GetFactory]()
+RETURNS TABLE
+AS RETURN
+(
+SELECT FIRMNR AS Firm, DIVISNR AS DivisionNr, NR AS Nr, NAME AS Name FROM L_CAPIFACTORY WITH (NOLOCK)
+);
+
+GO

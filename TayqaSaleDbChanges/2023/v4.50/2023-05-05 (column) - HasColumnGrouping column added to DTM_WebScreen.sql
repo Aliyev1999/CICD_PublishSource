@@ -1,0 +1,2 @@
+ALTER TABLE DTM_WebScreen
+ADD HasColumnGrouping BIT NOT NULL DEFAULT 0;

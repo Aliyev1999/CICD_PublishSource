@@ -1,0 +1,8 @@
+﻿{
+    "portalUrls": [{
+             "remoteServiceBaseUrl": "https://vesas.veyseloglu.az:1321",
+			  "appBaseUrl": "https://vesas.veyseloglu.az:1320",
+              "isDefault": true
+        }
+    ]
+}

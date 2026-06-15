@@ -1,0 +1,8 @@
+﻿{
+    "portalUrls": [{
+            "remoteServiceBaseUrl": "http://localhost:1101",
+            "appBaseUrl": "http://localhost:1100",
+            "isDefault": true
+        }
+    ]
+}

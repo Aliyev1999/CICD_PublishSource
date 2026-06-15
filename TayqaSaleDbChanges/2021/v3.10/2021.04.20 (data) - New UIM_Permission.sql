@@ -1,0 +1,1 @@
+delete from UIM_Permission where ObjectName like 'Inventory.RequestSupply.Register%' 

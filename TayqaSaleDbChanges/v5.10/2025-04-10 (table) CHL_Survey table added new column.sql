@@ -1,0 +1,2 @@
+﻿ALTER TABLE CHL_Survey
+ADD QuestionGroupView TINYINT NULL

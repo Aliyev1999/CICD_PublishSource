@@ -1,0 +1,2 @@
+INSERT INTO SYS_ConfigObject (Id, Name, Description, ValueFromTable, AppRelevant, ModifiedUserId, CreatedUserId, ModifiedDate, CreatedDate)
+VALUES (47, 'ActionSpecodeInputType', 'Action Specode Input Type', 0, 1, null, 1, null, GETDATE());

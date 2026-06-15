@@ -1,0 +1,28 @@
+{
+	"AdditionalParameters": {
+		"ERPIntegrationService": [
+			{
+				"ConfigName": "AplusCoSetDocProcessDate",
+				"ConfigValue": "true",
+				"Version": "v2.95"
+			},
+			{
+				"ConfigName": "AplusCoDocLastProcessDate",
+				"ConfigValue": "true",
+				"Version": "v2.95"
+			},
+			{
+				"ConfigName": "CheckRiskLimit",
+				"ConfigValue": "true",
+				"Version": "v2.95"
+			}
+		],
+		"MasterDataSyncService": [
+			{
+				"ConfigName": "DayCountForSaleInvoice",
+				"ConfigValue": "10",
+				"Version": "v2.95"
+			}
+		]
+	}
+}

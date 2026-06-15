@@ -1,0 +1,1 @@
+INSERT INTO SYS_GlobalConfigParameter VALUES('InventoryDemandSecondConfirmEnabled', 'false', 'Configure inventory demand second confirmation. false is disabled, true is enabled. Required restart ServicePortal, UserIdentityManagement and InventoryManagementWS',1,GETDATE())

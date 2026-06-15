@@ -1,0 +1,2 @@
+Alter Table DTM_MobileReportCardProperty
+Add SubQueryId int

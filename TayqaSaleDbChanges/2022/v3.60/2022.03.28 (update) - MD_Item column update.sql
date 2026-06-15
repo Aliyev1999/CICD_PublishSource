@@ -1,0 +1,6 @@
+ALTER TABLE MD_Item ALTER COLUMN Image1 nvarchar(300);
+ALTER TABLE MD_Item ALTER COLUMN Image2 nvarchar(300);
+ALTER TABLE MD_Item ALTER COLUMN Image3 nvarchar(300);
+ALTER TABLE MD_Item ALTER COLUMN Image4 nvarchar(300);
+ALTER TABLE MD_Item ALTER COLUMN Image5 nvarchar(300);
+

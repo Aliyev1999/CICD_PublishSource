@@ -1,0 +1,2 @@
+INSERT INTO dbo.SYS_Module (Id, Name, Description, CreatedDate, HasOwnOrganizationStructure, ModuleUrl, PermissionName, Icon, [Order], ShowingOnUI, AppModuleName)
+VALUES (10, N'AnalyticsModule', N'AnalyticsModule', getdate(), N'0', N'http://localhost:7000', N'AnalyticsModule', N'fa fa-line-chart', 10, N'1', N'AnalyticsModule');

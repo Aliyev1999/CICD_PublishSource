@@ -1,0 +1,2 @@
+insert into SYS_GlobalConfigParameter(Name, Value, Description, Status, CreatedDate)
+values('ClientGroupTypeForDocumentCountRestrictions', 3, 'Required Restart RequestProcessor, ERPInegration and ServicePortal', 1, GETDATE())

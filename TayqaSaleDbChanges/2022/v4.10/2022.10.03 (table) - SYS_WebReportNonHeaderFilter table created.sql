@@ -1,0 +1,14 @@
+
+CREATE TABLE [dbo].[SYS_WebReportNonHeaderFilter](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[ReportId] [int] NOT NULL,
+	[FieldName] [nvarchar](100) NOT NULL,
+	[FilterType] [tinyint] NOT NULL,
+	[OrderNo] [int] NULL,
+	[IsHidden] [bit] NOT NULL,
+ CONSTRAINT [PK__SYS_WebR__3214EC07F8DF3154] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO

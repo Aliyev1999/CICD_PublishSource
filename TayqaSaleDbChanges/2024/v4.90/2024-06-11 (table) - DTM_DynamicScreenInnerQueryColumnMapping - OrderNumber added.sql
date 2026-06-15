@@ -1,0 +1,2 @@
+ALTER TABLE DTM_DynamicScreenInnerQueryColumnMapping
+ADD OrderNumber INT NULL;

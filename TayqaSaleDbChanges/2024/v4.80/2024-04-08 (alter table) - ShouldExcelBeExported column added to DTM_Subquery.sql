@@ -1,0 +1,2 @@
+ALTER TABLE DTM_SubQuery
+ADD ShouldExcelBeExported BIT NOT NULL DEFAULT 1;

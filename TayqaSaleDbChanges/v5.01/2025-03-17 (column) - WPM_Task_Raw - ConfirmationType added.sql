@@ -1,0 +1,4 @@
+ALTER TABLE WPM_Task_Raw
+ADD ConfirmationType TINYINT
+
+GO

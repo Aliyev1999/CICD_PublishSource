@@ -1,0 +1,11 @@
+/****** Object:  Sequence [dbo].[ItemTigerIdSeq]    Script Date: 3/14/2022 15:47:25 ******/
+CREATE SEQUENCE [dbo].[ItemTigerIdSeq] 
+ AS [bigint]
+ START WITH 100000
+ INCREMENT BY 1
+ MINVALUE -9223372036854775808
+ MAXVALUE 9223372036854775807
+ CACHE 
+GO
+
+

@@ -1,0 +1,185 @@
+{
+	"AdditionalParameters": {
+		"ERPIntegrationService": [
+			{
+				"ConfigName": "AquavitaAccessToken",
+				"ConfigValue": "",
+				"Version": "v2.97"
+			},
+			{
+				"ConfigName": "AquavitaERPResponsesFilePath",
+				"ConfigValue": "",
+				"Version": "v2.97"
+			},
+			{
+				"ConfigName": "SaleInvoiceTokenMethodURL",
+				"ConfigValue": "",
+				"Version": "v2.97"
+			},
+			{
+				"ConfigName": "OrderTokenMethodURL",
+				"ConfigValue": "",
+				"Version": "v2.97"
+			},
+			{
+				"ConfigName": "ReturnInvoiceTokenMethodURL",
+				"ConfigValue": "",
+				"Version": "v2.97"
+			},
+			{
+				"ConfigName": "SafeDepositTokenMethodURL",
+				"ConfigValue": "",
+				"Version": "v2.97"
+			}
+		],
+		"MasterDataSyncService" : [
+			{
+				"ConfigName": "AquavitaURLCashCard",
+				"ConfigValue": "",
+				"Version": "v2.97"
+			},
+			{
+				"ConfigName": "AquavitaURLClientRoute",
+				"ConfigValue": "",
+				"Version": "v2.97"
+			},
+			{
+				"ConfigName": "AquavitaURLClient",
+				"ConfigValue": "",
+				"Version": "v2.97"
+			},
+			{
+				"ConfigName": "AquavitaURLClientDebt",
+				"ConfigValue": "",
+				"Version": "v2.97"
+			},
+			{
+				"ConfigName": "AquavitaURLDepartment",
+				"ConfigValue": "",
+				"Version": "v2.97"
+			},
+			{
+				"ConfigName": "AquavitaURLCurrency",
+				"ConfigValue": "",
+				"Version": "v2.97"
+			},
+			{
+				"ConfigName": "AquavitaURLItemBarcode",
+				"ConfigValue": "",
+				"Version": "v2.97"
+			},
+			{
+				"ConfigName": "AquavitaURLItem",
+				"ConfigValue": "",
+				"Version": "v2.97"
+			},
+			{
+				"ConfigName": "AquavitaURLSalesman",
+				"ConfigValue": "",
+				"Version": "v2.97"
+			},
+			{
+				"ConfigName": "AquavitaURLWareHouse",
+				"ConfigValue": "",
+				"Version": "v2.97"
+			},
+			{
+				"ConfigName": "AquavitaURLSlsClrel",
+				"ConfigValue": "",
+				"Version": "v2.97"
+			},
+			{
+				"ConfigName": "AquavitaURLItemStock",
+				"ConfigValue": "",
+				"Version": "v2.97"
+			},
+			{
+				"ConfigName": "AquavitaURLItemUnit",
+				"ConfigValue": "",
+				"Version": "v2.97"
+			},
+			{
+				"ConfigName": "AquavitaURLItemStandardPrice",
+				"ConfigValue": "",
+				"Version": "v2.97"
+			},
+			{
+				"ConfigName": "AquavitaURLItemSpecificPrice",
+				"ConfigValue": "",
+				"Version": "v2.97"
+			},
+			{
+				"ConfigName": "AquavitaURLItemSpecificGroupPrice",
+				"ConfigValue": "",
+				"Version": "v2.97"
+			},
+			{
+				"ConfigName": "AquavitaURLClientGroupForSpecificItemPrice",
+				"ConfigValue": "",
+				"Version": "v2.97"
+			},
+			{
+				"ConfigName": "AquavitaAuthToken",
+				"ConfigValue": "",
+				"Version": "v2.97"
+			}
+		],
+		"ReportManagerWS" : [
+			{
+				"ConfigName": "ReportServiceUrl",
+				"ConfigValue": "",
+				"Version": "v2.97"
+			},
+			{
+				"ConfigName": "GetSalesmanDebtData",
+				"ConfigValue": "",
+				"Version": "v2.97"
+			},
+			{
+				"ConfigName": "GetClientExtractData",
+				"ConfigValue": "",
+				"Version": "v2.97"
+			},
+			{
+				"ConfigName": "GetClientsExtractData",
+				"ConfigValue": "",
+				"Version": "v2.97"
+			},
+			{
+				"ConfigName": "GetFinalizedItemExtractData",
+				"ConfigValue": "",
+				"Version": "v2.97"
+			},
+			{
+				"ConfigName": "GetInvoiceDetailsData",
+				"ConfigValue": "",
+				"Version": "v2.97"
+			},
+			{
+				"ConfigName": "GetSaleActionsData",
+				"ConfigValue": "",
+				"Version": "v2.97"
+			},
+			{
+				"ConfigName": "GetTopSoldItemsData",
+				"ConfigValue": "",
+				"Version": "v2.97"
+			},
+			{
+				"ConfigName": "GetSalesmanActionData",
+				"ConfigValue": "",
+				"Version": "v2.97"
+			},
+			{
+				"ConfigName": "AquavitaAuthToken",
+				"ConfigValue": "",
+				"Version": "v2.97"
+			},
+			{
+				"ConfigName": "AquavitaAuthToken",
+				"ConfigValue": "",
+				"Version": "v2.97"
+			}
+		]
+	}
+}

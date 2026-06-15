@@ -1,0 +1,8 @@
+﻿{
+    "portalUrls": [{
+			"remoteServiceBaseUrl": "http://192.168.10.65:402",
+			"appBaseUrl": "http://192.168.10.65:403",
+            "isDefault": true
+        }
+    ]
+}

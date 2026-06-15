@@ -1,0 +1,2 @@
+ALTER TABLE DTM_SubQuery
+ADD ExcelExportType TINYINT NULL;

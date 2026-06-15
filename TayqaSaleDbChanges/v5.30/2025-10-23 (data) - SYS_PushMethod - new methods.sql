@@ -1,0 +1,2 @@
+insert into SYS_PushMethod(Id, Name, Description, ExtraInfo, Url, DataTypeId, PushTypeId, Status, CreatedUserId, CreatedDate)
+values(156, 'GetManagementPermissions', 'GetManagementPermissions', NULL, NULL, 1, 1, 1, 2, getdate())

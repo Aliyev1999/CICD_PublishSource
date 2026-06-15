@@ -1,0 +1,3 @@
+
+CREATE SYNONYM SP_WPM_RetrieveItemList
+FOR SP_SM_RetrieveItemList

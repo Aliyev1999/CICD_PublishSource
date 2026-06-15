@@ -1,0 +1,2 @@
+ALTER TABLE WPM_SelectedNonActionReasons
+DROP CONSTRAINT WPM_SelectedNonActionReasons_NonActionReasonId_fk;

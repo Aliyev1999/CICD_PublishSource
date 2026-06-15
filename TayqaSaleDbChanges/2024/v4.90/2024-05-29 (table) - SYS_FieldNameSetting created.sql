@@ -1,0 +1,8 @@
+
+CREATE TABLE SYS_FieldNameSetting
+(
+	Id INT IDENTITY(1, 1) PRIMARY KEY,
+	FieldName TINYINT,
+	Language TINYINT,
+	NewFieldName NVARCHAR(100)
+)

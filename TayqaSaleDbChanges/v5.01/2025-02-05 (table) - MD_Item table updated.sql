@@ -1,0 +1,2 @@
+﻿ALTER TABLE MD_Item
+ADD TaxCode VARCHAR(20)

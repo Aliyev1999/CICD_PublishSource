@@ -1,0 +1,1 @@
+EXEC sp_RENAME 'SYS_DocumentRestriction.Status' , 'IsActive', 'COLUMN'

@@ -1,0 +1,4 @@
+ALTER TABLE DTM_MobileReportFilterMask
+ADD IsCascade BIT NOT NULL DEFAULT 0
+
+ 

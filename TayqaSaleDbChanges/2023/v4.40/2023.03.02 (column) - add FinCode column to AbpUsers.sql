@@ -1,0 +1,3 @@
+ALTER TABLE AbpUsers
+ADD FinCode NVARCHAR(50);
+ 

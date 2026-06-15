@@ -1,0 +1,1 @@
+update SYS_ConfigObject set Name= 'OperationType' where Id=37

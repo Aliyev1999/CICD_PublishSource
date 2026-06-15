@@ -1,0 +1,2 @@
+ALTER TABLE WPM_WorkExecutionClientMappingStatus
+ADD CONSTRAINT UQ_WorkExecutionClientMappingStatus_TaskClientId UNIQUE (TaskClientId);

@@ -1,0 +1,11 @@
+{
+	"AdditionalParameters": {
+		"ERPIntegrationService": [
+			{
+				"ConfigName": "TigerApplyClientDiscountForOrder",
+				"ConfigValue": "true",
+				"Version": "v2.95"
+			}
+		]
+	}
+}

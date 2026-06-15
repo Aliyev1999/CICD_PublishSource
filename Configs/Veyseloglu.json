@@ -1,0 +1,116 @@
+{
+	"AdditionalParameters": {
+		"ERPIntegrationService": [
+			{
+				"ConfigName": "VeyselogluAdditionalDB",
+				"ConfigValue": "Server=LST_DEF01.veyseloglu.az,1433;Database=ReportBase;User ID=lgn_vesastiger;Password=*An_124Ti!@14F0%-Riz!;Trusted_Connection=false; Connection Timeout=60",
+				"Version": "v2.95"
+			},
+			{
+				"ConfigName": "TigerDoubleApplyCampaignFlag",
+				"ConfigValue": "true",
+				"Version": "v2.95"
+			},
+			{
+				"ConfigName": "GetSoldItemAmountsWithLessUnitDbConnectionString",
+				"ConfigValue": "Server=LST_DEF01.veyseloglu.az,1433;Database=ReportBase;User ID=lgn_vesastiger;Password=*An_124Ti!@14F0%-Riz!;Trusted_Connection=false; Connection Timeout=60",
+				"Version": "v2.95"
+			}
+		],
+		"ReportManagerWS": [
+			{
+				"ConfigName": "VeyselogluSpecialReportDb",
+				"ConfigValue": "Server=LST_DEF01.veyseloglu.az,1433;Database=ReportBase;User ID=lgn_vesastiger;Password=*An_124Ti!@14F0%-Riz!;Trusted_Connection=false; Connection Timeout=60",
+				"Version": "v2.93"
+			},
+			{
+				"ConfigName": "RiskLimitDbConnectionString",
+				"ConfigValue": "Server=LST_DEF01.veyseloglu.az,1433;Database=ReportBase;User ID=lgn_vesastiger;Password=*An_124Ti!@14F0%-Riz!;Trusted_Connection=false; Connection Timeout=60",
+				"Version": "v2.93"
+			},
+			{
+				"ConfigName": "ReportFirm1",
+				"ConfigValue": "151",
+				"Version": "v2.93"
+			},
+			{
+				"ConfigName": "ReportErpDb1",
+				"ConfigValue": "Server=LST_DEF01.veyseloglu.az,1433;Database=TIGER2020;User ID=lgn_vesastiger;Password=*An_124Ti!@14F0%-Riz!;Trusted_Connection=false; Connection Timeout=60",
+				"Version": "v2.93"
+			},
+			{
+				"ConfigName": "SaleFunctionalityDbConnectionString",
+				"ConfigValue": "Server=LST_DEF01.veyseloglu.az,1433;Database=ReportBase;User ID=lgn_vesastiger;Password=*An_124Ti!@14F0%-Riz!;Trusted_Connection=false; Connection Timeout=60",
+				"Version": "v2.93"
+			},
+		],
+		"RequestProcessorWS": [
+			{
+				"ConfigName": "VeyselogluIgnoreDocNumberSetting",
+				"ConfigValue": "false",
+				"Version": "v2.95"
+			}
+		],
+		"MasterDataSyncService" : [
+			{
+				"ConfigName": "BeginDateForRefreshMethods",
+				"ConfigValue": "01.01.2000 00:00:00",
+				"Version": "v2.95"
+			},
+			{
+				"ConfigName": "AdditionalDbConnectionString",
+				"ConfigValue": "Server=LST_DEF01.veyseloglu.az,1433;Database=ReportBase;User ID=lgn_vesastiger;Password=*An_124Ti!@14F0%-Riz!;Trusted_Connection=false; Connection Timeout=60",
+				"Version": "v2.95"
+			},
+			{
+				"ConfigName": "MasterDataDB",
+				"ConfigValue": "Server=LST_DEF01.veyseloglu.az,1433;Database=LOGOBASE;User ID=lgn_vesastiger;Password=*An_124Ti!@14F0%-Riz!;Trusted_Connection=false; Connection Timeout=60",
+				"Version": "v2.95"
+			},
+				{
+				"ConfigName": "MasterDataDBFlagMask",
+				"ConfigValue": "11111111",
+				"Version": "v2.95"
+			},
+			{
+				"ConfigName": "DayCountForSaleInvoice",
+				"ConfigValue": "1",
+				"Version": "v2.99"
+			}
+		],
+		"ReportManagerWS": [
+			{
+				"ConfigName": "VeyselogluSpecialReportDb",
+				"ConfigValue": "Server=LST_DEF01.veyseloglu.az,1433;Database=ReportBase;User ID=lgn_vesastiger;Password=*An_124Ti!@14F0%-Riz!;Trusted_Connection=false; Connection Timeout=60",
+				"Version": "v2.93"
+			},
+				{
+				"ConfigName": "ReportErpDb1",
+				"ConfigValue": "Server=LST_DEF01.veyseloglu.az,1433;Database=TIGER2020;User ID=lgn_vesastiger;Password=*An_124Ti!@14F0%-Riz!;Trusted_Connection=false; Connection Timeout=60",
+				"Version": "v2.93"
+			},
+					{
+				"ConfigName": "ReportFirm1",
+				"ConfigValue": "151",
+				"Version": "v2.93"
+			},
+					{
+				"ConfigName": "RiskLimitDbConnectionString",
+				"ConfigValue": "Server=LST_DEF01.veyseloglu.az,1433;Database=ReportBase;User ID=lgn_vesastiger;Password=*An_124Ti!@14F0%-Riz!;Trusted_Connection=false; Connection Timeout=60;",
+				"Version": "v2.93"
+			},
+					{
+				"ConfigName": "SaleFunctionalityDbConnectionString",
+				"ConfigValue": "Server=LST_DEF01.veyseloglu.az,1433;Database=ReportBase;User ID=lgn_vesastiger;Password=*An_124Ti!@14F0%-Riz!;Trusted_Connection=false; Connection Timeout=60;",
+				"Version": "v2.93"
+			}
+		],
+		"RequestProcessorWS": [
+			{
+				"ConfigName": "VeyselogluIgnoreDocNumberSetting",
+				"ConfigValue": "false",
+				"Version": "v2.95"
+			}
+		]
+	}
+}

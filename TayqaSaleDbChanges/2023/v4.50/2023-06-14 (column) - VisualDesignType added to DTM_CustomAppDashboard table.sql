@@ -1,0 +1,2 @@
+ALTER TABLE DTM_CustomAppDashboard
+ADD VisualDesignType TINYINT

@@ -1,0 +1,2 @@
+Alter Table DTM_MobileScreenCardProperty
+Add SubQueryId int

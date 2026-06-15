@@ -1,0 +1,18 @@
+CREATE TABLE DTM_ExternalReport(
+Id INT IDENTITY(1,1) PRIMARY KEY,
+ReportName NVARCHAR(100) Not Null,
+ReportCode NVARCHAR(100) Not Null,
+Description NVARCHAR(100),
+SpecCode1 NVARCHAR(100),
+SpecCode2 NVARCHAR(100),
+SpecCode3 NVARCHAR(100),
+ExternalConnectionId INT NOT NUll,
+CreatorUserId BIGINT NOT NULL,
+CreationTime DATETIME NOT NUll,
+LastModifierUserId BIGINT,
+LastModificationTime DATETIME,
+IsActive BIT Not Null,
+IsDeleted BIT,
+DeleterUserId BIGINT,
+DeletionTime DATETIME,
+)

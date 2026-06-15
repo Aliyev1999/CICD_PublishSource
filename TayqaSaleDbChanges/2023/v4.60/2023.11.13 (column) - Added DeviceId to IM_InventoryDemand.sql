@@ -1,0 +1,5 @@
+IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'IM_InventoryDemand' AND COLUMN_NAME = 'DeviceId')
+BEGIN
+    ALTER TABLE IM_InventoryDemand
+    ADD DeviceId uniqueidentifier not null default('00000000-0000-0000-0000-000000000000');
+END

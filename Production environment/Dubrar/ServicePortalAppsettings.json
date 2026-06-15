@@ -1,0 +1,113 @@
+﻿{
+  "ConnectionStrings": {
+    "Default": "Server=WIN-PJC02HCUL9L;Database=TayqaSale;User ID=TaygaSale;Password=Ts*2019;Trusted_Connection=false; Connection Timeout=60"
+  },
+  "AbpZeroLicenseCode": "00GEz+pPp/VzwEotaxBVwlUfQWRwnhUbn181680979411c4cd28a845e0cf0e970f7",
+
+  "Abp": {
+    "RedisCache": {
+      "ConnectionString": "localhost",
+      "DatabaseId": -1
+    }
+  },
+
+  // -- Production
+  "App": {
+    "ServerRootAddress": "http://localhost:1101",
+    "ClientRootAddress": "http://localhost:1100/",
+    "CorsOrigins": "http://WINDOWS-2PDAEB1:1100, http://WINDOWS-2PDAEB1:1101"
+  },
+
+  "LicenseManagement": {
+     "LicenseInfoFilePath": "C:\\TayqaSale\\AppDownloads\\prod\\license.xml"
+  },
+
+  "ExcelTemplateConfig": {
+    "ExcelTemplatesFolderPath": "D:\\Excels\\",
+    "ExcelTemplates": [
+      "UserCatalogMapping.xlsx",
+      "CatalogItemMapping.xlsx",
+    ]
+  },
+
+  "SalesmanActionsConfig": {
+    "WebserviceUrl": "http://localhost:1103/tayqa/tiger/api/development/v4.00/report/GetSalesmanActionData/"
+  },
+
+  "Authentication": {
+    "Facebook": {
+      "IsEnabled": "false",
+      "AppId": "",
+      "AppSecret": ""
+    },
+    "Google": {
+      "IsEnabled": "false",
+      "ClientId": "",
+      "ClientSecret": ""
+    },
+    "Microsoft": {
+      "IsEnabled": "false",
+      "ConsumerKey": "",
+      "ConsumerSecret": ""
+    },
+    "JwtBearer": {
+      "IsEnabled": "true",
+      "SecurityKey": " for D4brar 2o19!",
+      "Issuer": "http://www.dubrar.com",
+      "Audience": "http://www.dubrar.com"
+    }
+  },
+
+  "Recaptcha": {
+    "SiteKey": "6LfD-wUTAAAAACULAVXvL61K0w02RIsjhI8EyiS-",
+    "SecretKey": "6LfD-wUTAAAAADm3h7vomd9FtaAlAwexki29BtXC"
+  },
+
+  "IdentityServer": {
+    "IsEnabled": "true",
+    "Clients": [
+      {
+        "ClientId": "client",
+        "AllowedGrantTypes": [ "password" ],
+        "ClientSecrets": [
+          {
+            "Value": "def2edf7-5d42-4edc-a84a-30136c340e13"
+          }
+        ],
+        "AllowedScopes": [ "default-api" ]
+      },
+      {
+        "ClientId": "demo",
+        "ClientName": "MVC Client Demo",
+        "AllowedGrantTypes": [ "hybrid", "client_credentials" ],
+        "RequireConsent": "true",
+        "ClientSecrets": [
+          {
+            "Value": "def2edf7-5d42-4edc-a84a-30136c340e13"
+          }
+        ],
+        "RedirectUris": [ "http://openidclientdemo.com:8001/signin-oidc" ],
+        "PostLogoutRedirectUris": [ "http://openidclientdemo.com:8001/signout-callback-oidc" ],
+        "AllowedScopes": [ "openid", "profile", "default-api" ],
+        "AllowOfflineAccess": "true"
+      }
+    ]
+  },
+
+  "Payment": {
+    "PayPal": {
+      "Environment": "sandbox",
+      "BaseUrl": "https://api.sandbox.paypal.com/v1",
+      "ClientId": "",
+      "ClientSecret": "",
+      "DemoUsername": "",
+      "DemoPassword": ""
+    }
+  },
+
+  //"ItemImagesPath": "D:\\TayqaSaleAppDownloads\\prod\\ItemImages",
+  "ItemImagesPath": "C:\\TempItemAttachment",
+
+  //"CatalogImagesZipPath": "D:\\TayqaSaleAppDownloads\\prod\\ImageZips",
+  "CatalogImagesZipPath": "C:\\TempItemAttachment"
+}

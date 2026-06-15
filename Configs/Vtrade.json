@@ -1,0 +1,52 @@
+{
+	"AdditionalParameters": {
+		"ERPIntegrationService": [
+			{
+				"ConfigName": "VeyselogluAdditionalDB",
+				"ConfigValue": "Server=LST_VTRADE01.veyseloglu.az,1452;Database=ReportBase;User ID=lgn_vesastiger;Password=*Os%124MiN87+*14noQ!;Trusted_Connection=false; Connection Timeout=60",
+				"Version": "v2.95"
+			}
+		],
+		"ReportManagerWS": [
+			{
+				"ConfigName": "VeyselogluSpecialReportDb",
+				"ConfigValue": "Server=LST_VTRADE01.veyseloglu.az,1452;Database=ReportBase;User ID=lgn_vesastiger;Password=*Os%124MiN87+*14noQ!;Trusted_Connection=false; Connection Timeout=60",
+				"Version": "v2.93"
+			},
+			{
+				"ConfigName": "RiskLimitDbConnectionString",
+				"ConfigValue": "Server=LST_VTRADE01.veyseloglu.az,1452;Database=ReportBase;User ID=lgn_vesastiger;Password=*Os%124MiN87+*14noQ!;Trusted_Connection=false; Connection Timeout=60;",
+				"Version": "v2.93"
+			}
+		],
+		"RequestProcessorWS": [
+			{
+				"ConfigName": "VeyselogluIgnoreDocNumberSetting",
+				"ConfigValue": "false",
+				"Version": "v2.95"
+			}
+		],
+		"MasterDataSyncService": [
+			{
+				"ConfigName": "BeginDateForRefreshMethods",
+				"ConfigValue": "01.01.2000 00:00:00",
+				"Version": "v2.95"
+			},
+			{
+				"ConfigName": "AdditionalDbConnectionString",
+				"ConfigValue": "Server=LST_VTRADE01.veyseloglu.az,1452;Database=ReportBase;User ID=lgn_vesastiger;Password=*Os%124MiN87+*14noQ!;Trusted_Connection=false; Connection Timeout=60",
+				"Version": "v2.95"
+			},
+			{
+				"ConfigName": "MasterDataDB",
+				"ConfigValue": "Server=LST_VTRADE01.veyseloglu.az,1452;Database=LOGOBASE;User ID=lgn_vesastiger;Password=*Os%124MiN87+*14noQ!;Trusted_Connection=false; Connection Timeout=60",
+				"Version": "v2.95"
+			},
+				{
+				"ConfigName": "MasterDataDBFlagMask",
+				"ConfigValue": "11111111",
+				"Version": "v2.95"
+			}
+		]
+	}
+}

@@ -1,0 +1,49 @@
+INSERT INTO SYS_MethodPermission
+(
+		[MethodId]
+		,[PermissionId]
+		,[PermissionValue]
+		,[Description]
+		,[CreatedDate]
+)
+VALUES
+(
+		1060
+		,67
+		,1
+		,'GetBannedClients'
+		,GETDATE()
+)
+
+INSERT INTO SYS_MethodPermission
+(
+		[MethodId]
+		,[PermissionId]
+		,[PermissionValue]
+		,[Description]
+		,[CreatedDate]
+)
+VALUES
+(
+		1061
+		,67
+		,1
+		,'CreateUpdateBannedClient'
+		,GETDATE()
+)
+INSERT INTO SYS_MethodPermission
+(
+		[MethodId]
+		,[PermissionId]
+		,[PermissionValue]
+		,[Description]
+		,[CreatedDate]
+)
+VALUES
+(
+		1062
+		,67
+		,1
+		,'DeleteBannedClient'
+		,GETDATE()
+)

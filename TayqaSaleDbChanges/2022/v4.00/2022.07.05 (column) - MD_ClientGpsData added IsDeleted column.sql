@@ -1,0 +1,1 @@
+ALTER TABLE MD_ClientGpsData ADD IsDeleted bit not null DEFAULT 0 WITH VALUES;

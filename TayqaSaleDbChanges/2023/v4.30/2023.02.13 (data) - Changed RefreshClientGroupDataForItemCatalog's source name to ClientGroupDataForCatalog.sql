@@ -1,0 +1,1 @@
+UPDATE SYS_DataExchangeMethod SET Source='ClientGroupDataForCatalog' WHERE Source='ClientGroupdDataForCatalog';
